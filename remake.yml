@@ -1,0 +1,42 @@
+packages:
+  - plyr
+  - rmarkdown
+  - dplyr
+  - ggplot2
+  - knitr
+  - tidybayes
+  - fishflux
+  - egg
+  - png
+  - fishualize
+  - purrr
+
+sources:
+  - R/figures_tables.R
+
+targets:
+  all:
+    depends:
+      - output/figures/fig2.pdf
+      - output/figures/fig3.pdf
+      - output/figures/fig4.pdf
+      - output/figures/fig5.pdf
+      - output/tables/table_ingestion.csv
+
+    
+ # Tables -------------------------------------------------  
+
+  output/tables/table_ingestion.csv:
+    command: make_table_ingestion(out = target_name)
+
+  # Figures -------------------------------------------------  
+  output/figures/fig2.pdf:
+    command: makeplot2(out = target_name)
+  output/figures/fig3.pdf:
+    command: makeplot3(out = target_name)
+  output/figures/fig4.pdf:
+    command: makeplot4(out = target_name)
+  output/figures/fig5.pdf:
+    command: makeplot5(out = target_name)  
+  
+

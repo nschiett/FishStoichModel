@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/256277906.svg)](https://zenodo.org/badge/latestdoi/256277906)
+
+
+
 # Nutrient limitation, bioenergetics, and stoichiometry: a new model to predict elemental fluxes mediated by fishes
 
 This repository contains code and data needed to reproduce the figures and tables of the manuscript:

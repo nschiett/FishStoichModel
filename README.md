@@ -1,8 +1,8 @@
-# Nutrient limitation, bioenergetics, and stoichiometry predict elemental fluxes mediated by fishes
+# Nutrient limitation, bioenergetics, and stoichiometry: a new model to predict elemental fluxes mediated by fishes
 
 This repository contains code and data needed to reproduce the figures and tables of the manuscript:
 
-Nutrient limitation, bioenergetics, and stoichiometry predict elemental fluxes mediated by fishes. *Functional Ecology* (in review). 
+Schiettekatte, N. M. D., Barneche, D. R., Villéger, S., Allgeier, J, Burkepile, D.; Brandl, S.J., Casey, J. M.; Mercière, A; Munsterman, K; Morat, F; Parravicini, V (2020) (in press.) Nutrient limitation, bioenergetics, and stoichiometry: a new model to predict elemental fluxes mediated by fishes. *Functional ecology*
 
 ## Instructions
 
